@@ -1,0 +1,219 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Comparision</title>
+    <style>
+        .iphone-img{
+            width: 190px;
+            height: auto;
+            margin-bottom: 25px;
+            max-width: 100%;
+            }
+            .iphn{
+                font-weight:650 ;
+                font-size: 26px;
+            }
+            .samsung-img{
+            width: 210px;
+            height: auto;
+            margin-bottom: 25px;
+            max-width: 100%;
+            }
+            .oneplus-img{
+            width: 186.5px;
+            height: auto;
+            margin-bottom: 25px;
+            max-width: 100%;
+            }
+            html{
+                box-sizing: border-box;
+                font-family: 'Open Sans', sans-serif ;
+            }
+            
+            body{
+                background-color: #eff6e0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                
+            } 
+            .panel {
+                background-color: #83c5be;
+                border-radius: 10px;
+                padding: 15px 25px;
+                width: 100%; 
+                max-width: 960px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                text-transform: uppercase;
+                margin-top: 3%;
+                margin-bottom: 3%;
+                
+            }
+            .pricing-plan{
+                border-bottom: 1px solid #e1f1ff;
+            }
+            .pricing-plan :last-child{
+                border-bottom: none;
+            }
+            .pricing-header{
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+            
+            .pricing-features{
+                margin: 50px 0 25px;
+                color: rgb(16, 16, 16);
+            }
+            .pricing-features-item{
+                font-weight: 600;
+                letter-spacing: 1px;
+                font-size: 12px;
+                line-height: 1.5;
+                padding: 15px 0;
+                border-top: 1px solid #e1f1ff;
+            }
+            .pricing-features-item:last-child{
+                border-bottom: 1px solid #e1f1ff;
+            }
+            .pricing-price{
+                /* color: #016ff9; */
+                display: block;
+                font-size: 32px;
+                font-weight: 600;
+            }
+            .pricing-button{
+                border: 1px solid #9dd1ff;
+                border-radius: 10px;
+                color: #348efe;
+                display: inline-block;
+                padding: 15px 30px;
+                text-decoration: none;
+                margin: 25px 0;
+                transition: background-color 200ms ease-in-out;
+            }
+            .pricing-button:hover, .pricing-button:focus{
+                background-color: #269aff;
+                color: white;
+            }
+            /* .pricing-button.is-featured:hover, .pricing-button.pricing-button.is-featured:focus{
+                background-color: #269aff;
+                color: white;
+            } */
+            @media (min-width: 900px){
+                .panel{
+                    flex-direction: row;
+                }
+                .pricing-plan{
+                    border-bottom: none;
+                    border-right: 1px solid #e1f1ff;
+                    padding: 25px 50 px;
+                }
+                .pricing-plan :last-child{
+                    border-right: none;;
+                }
+            }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="panel">
+
+        <div class="pricing-plan">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglk-BNX0EO04xXBZ355bskCwiKsa6kjXZ-NnM--2bT7rPlpszupZmjl4BFDvhs3m3zcewwXb-6mefqyTQ1q9_qbiJiREr-IFrRBl3bNs7C5H6ktv3ppsxMeeqrmfAlrm3Ve4QVnkaD2PmbXn-sCTbB3PKNuuXGECo3a8JC5Su7yOdCcr_5Kcu-FMhgXQ/s320/Iphone14pro.png" alt="" class="iphone-img">
+            <h1 class="iphn">i Phone 14 pro </h1>
+            <h2 class="pricing-header">Specifications</h2>
+            <ul class="pricing-features">
+                <li class="pricing-features-item">128 GB ROM</li>
+                <li class="pricing-features-item">15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                <li class="pricing-features-item">48MP + 12MP + 12MP + 12MP | 12MP Front Camera</li>
+                <li class="pricing-features-item">3200 MAH BATTERY</li>
+                <li class="pricing-features-item">A16 Bionic Chip, 6 Core Processor Processor</li>
+
+            </ul>
+            <span class="pricing-price">₹1,22,999</span>
+            <a href="https://www.amazon.in/Apple-iPhone-128GB-Space-Black/dp/B0BDJ7P6NG/ref=sr_1_4?crid=3AD2L89IDHZX5&keywords=iphone+14+pro&qid=1677509695&sprefix=i+phone+%2Caps%2C294&sr=8-4" target="_blank" class="pricing-button">Buy Now</a>
+        </div>
+
+        <div class="pricing-plan">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYJ01M7Ujh8y5fXBQ4lxawuEWeqvElehXDqDnVujbc2YBb54w6UZHWFMfxhQ5l0vooggEsw2PZd94a1qZ83vSAKKqYygt6L98iHDmEr00fC7ZQeAocoIkbLFgZBExCz2wdwDMfxP0tuRN_xtlWbhcYnkPYP_UJgxQ5pqe_R_G3TEF3nk59KIcOur6xyg/s320/Samsungs23ultra.png" alt="" width="" class="samsung-img">
+            <h2> Samsung Galaxy S23 Ultra  </h2>
+            <h2 class="pricing-header">Specifications</h2>
+            <ul class="pricing-features">
+                <li class="pricing-features-item">12 GB RAM | 256 GB ROM</li>
+                <li class="pricing-features-item">17.27 cm (6.8 inch) Quad HD+ Display</li>
+                <li class="pricing-features-item">200MP + 10MP + 12MP + 10MP | 12MP Front Camera</li>
+                <li class="pricing-features-item">5000 mAh Lithium Ion Battery</li>
+                <li class="pricing-features-item">Qualcomm Snapdragon 8 Gen 2 Processor</li>
+            </ul>
+            <span class="pricing-price">₹1,24,999</span>
+            <a href="https://www.amazon.in/Samsung-Galaxy-Ultra-Green-Storage/dp/B0BT9CXXXX/ref=sr_1_3?crid=12TJJE4Q6BTFX&keywords=samsung+s23+ultra&qid=1677510373&sprefix=sam%2Caps%2C292&sr=8-3" target="_blank" class="pricing-button is-featured">Buy Now</a>
+        </div>
+
+        <div class="pricing-plan">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgci5LaTFpFrMHL6a_6ud2gMiD2uHgLBJlsMsCopKKhI1VQV2tCm456ICG-m7_QbJun8j8fsS5Ui64DRiPXoSZ1ASgV-bdy6AElu8P3sywKXh9c6NZc3XYYC0jDsz7i8S1nExCxT7W1zQKRbG5oRGHFa2KkKS-s2g5okwWowmbBKEwgDNe2r6kHAjlk-Q/s1600/OnePlus11.png" alt="" class="oneplus-img">
+            <h2> Oneplus 11 </h2>
+            <h2 class="pricing-header">Specifications</h2>
+            <ul class="pricing-features">
+                <li class="pricing-features-item">8 GB RAM | 128 GB ROM</li>
+                <li class="pricing-features-item">17.02 cm (6.7 inch) 120 Hz AMOLED QHD Display</li>
+                <li class="pricing-features-item">50MP + 48MP + 32MP | 16MP Front Camera </li>
+                <li class="pricing-features-item">5000 mAh Battery</li>
+                <li class="pricing-features-item">Qualcomm Snapdragon 8 Gen 2 Processor</li>
+            </ul>
+            <span class="pricing-price">₹56,999</span>
+            <a href="https://www.amazon.in/OnePlus-Eternal-Storage-Amazon-Credit/dp/B0BQJMRXQV/ref=sr_1_3?crid=NY4VVWNCC2NS&keywords=oneplus%2B11&qid=1677510456&sprefix=oneplus%2B11%2Bp%2Caps%2C327&sr=8-3&th=1" target="_blank" class="pricing-button">Buy Now</a>
+        </div>
+
+    </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+
+</html>
